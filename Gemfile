@@ -21,6 +21,25 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+gem 'slim-rails'
+
+# Pagination
+gem 'bootstrap-kaminari-views'
+gem 'kaminari'
+
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder'
+gem 'bootstrap-sass'
+gem 'byebug'
+
+group :assets do
+  gem 'jquery-rails'
+end
+
+gem 'shrine', '~> 3.3'
+gem 'image_processing', '~> 1.12', '>= 1.12.1'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
